@@ -10,7 +10,7 @@ variable "sg_ids" {
     default = "sg-0b7ce8885eed0f473"
 }
 
-varible "project" {
+variable "project" {
     default = "roboshop"
 }
 
