@@ -17,3 +17,12 @@ variable "project" {
 variable "environment" {
     default = "dev"
 }
+
+variable "ec2_tags" {
+    type = map
+    default = {
+        Name = "terraform"
+        Project = "roboshop"
+        Environment = "dev"
+    }
+}
