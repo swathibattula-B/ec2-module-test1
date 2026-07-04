@@ -5,7 +5,10 @@ module "ec2"  {
     sg_ids = var.sg_ids
     project = var.project
     environment = var.env
-    tags = var.ec2_tags
+    tags = {
+        Name = "${var.project}-${var.env}"
+        
+    }
     
 } 
 
