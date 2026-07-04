@@ -3,15 +3,13 @@ variable "project" {
 }
 
 variable "env" {
-    default = "env"
+    default = "dev"
 }
 
-variable  "ami_id"   {
-    default = 
-}
+
 
 variable "sg_ids"  {
-    default = ""
+    default = ["sg-076ec9ad23dab2b28"]
 }
 
 
