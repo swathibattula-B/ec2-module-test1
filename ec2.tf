@@ -3,6 +3,7 @@ module "ec2"  {
     Project = var.project
     Environment = var.env
     ami_id = data.aws_ami.joindevops.id
+    instance_type = "t3.micro"
     sg_ids = var.sg_ids
     ec2_tags = {
         Name = "${var.project}-${var.env}"

@@ -8,6 +8,8 @@ variable "env" {
 
 
 
+
+
 variable "sg_ids"  {
     default = ["sg-076ec9ad23dab2b28"]
 }
